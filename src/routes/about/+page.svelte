@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Clarity first",
+			description: "We help cut through noise and complexity, focusing on what truly matters for your growth and decisions."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Reflection drives action",
+			description: "Structured thinking creates better outcomes. We turn daily reflection into momentum and measurable progress."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Built for builders",
+			description: "Designed specifically for founders and ambitious professionals who move fast and think faster."
 		}
 	];
 </script>
@@ -33,71 +33,36 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We started with a simple belief: founders and high-performing professionals deserve better tools for personal growth. While the market is flooded with generic coaching solutions, we chose to build something different.",
+		"Our AI-driven reflection and action framework captures the essence of what makes great coaching work. We focus on structured thinking, actionable insights, and meaningful progress that compounds over time.",
+		"From day one, we've asked ourselves: 'Does this actually help people grow?' This question guides every feature we build and every interaction we design. We're not chasing quick wins—we're building lasting transformation.",
+		"We believe that clarity leads to better decisions, and better decisions create more fulfilling lives. Our platform helps ambitious minds turn reflection into action, one insight at a time."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet the founder."
+	subtitle="Building the future of personal development"
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Louis Morgner",
+			position: "Founder",
+			bio: "Passionate about helping founders and high-performing professionals unlock their potential through structured reflection and actionable insights.",
+			image: "/generated/image-professional-headshot-of-a-young-male-en.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Turn thinking into action"
+	subtitle="Start with 5 minutes a day"
+	description="Join ambitious founders who've made structured reflection their daily practice. Experience how AI-driven coaching helps you cut through mental noise and focus on what matters most."
+	imageSrc="/generated/image-a-professional-founder-smiling-thoughtfu.webp"
 />
