@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconBrain from "~icons/lucide/brain";
+	import IconTarget from "~icons/lucide/target";
+	import IconTrendingUp from "~icons/lucide/trending-up";
+	import IconCompass from "~icons/lucide/compass";
+	import IconActivity from "~icons/lucide/activity";
+	import IconUsers from "~icons/lucide/users";
 </script>
 
 <Hero
@@ -32,54 +40,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Sharma",
+			position: "CEO & Co-founder",
+			company: "CloudBridge Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The structured reflection framework saved me 8 hours per week that I was spending in unproductive self-doubt cycles. In 3 months, I made clearer strategic decisions that increased our revenue by 40%. The AI-driven insights helped me identify blind spots I'd been missing for years.",
+			image: "/generated/image-professional-headshot-of-priya-sharma-an.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Chen",
+			position: "Founder",
+			company: "GreenTech Innovations",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Before this platform, I was burning out making the same mental loops without progress. The actionable insights reduced my decision paralysis by 70% and helped me pivot our product strategy 6 months earlier than I would have otherwise. That early pivot saved us $200K in development costs.",
+			image: "/generated/image-professional-headshot-of-marcus-chen-an-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elena Rodriguez",
+			position: "Co-founder & CTO",
+			company: "DataFlow Solutions",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The reflection framework transformed how I approach leadership challenges. I went from spending 15+ hours per week overthinking team dynamics to having clear action plans in under 2 hours. My team satisfaction scores improved by 35% in just 4 months because I became a more intentional leader.",
+			image: "/generated/image-professional-headshot-of-elena-rodriguez.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="AI-powered coaching designed for founders"
+	subtitle="Transform scattered thoughts into clear action plans with structured reflection that drives measurable growth."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Smart reflection framework",
+			description: "AI guides you through structured reflection sessions that turn overwhelming decisions into clear priorities. Built specifically for the complexity of startup leadership.",
+			icon: IconBrain
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Actionable insights engine",
+			description: "Transform reflection into concrete next steps with AI that understands founder challenges. Get personalized action plans that move you forward, not just feel-good advice.",
+			icon: IconTarget
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Growth pattern recognition",
+			description: "Identify what's actually driving your progress with AI that spots patterns across your decisions and outcomes. See the invisible threads connecting your wins.",
+			icon: IconTrendingUp
+		},
+		{
+			title: "Decision clarity system",
+			description: "Cut through decision paralysis with structured frameworks that help you think clearly under pressure. Make confident choices when the stakes are high.",
+			icon: IconCompass
+		},
+		{
+			title: "Momentum tracking",
+			description: "Maintain forward progress with intelligent check-ins that keep you accountable to your growth. Never lose sight of what matters when everything feels urgent.",
+			icon: IconActivity
+		},
+		{
+			title: "Founder-specific scenarios",
+			description: "Navigate hiring, fundraising, product decisions, and team challenges with guidance tailored to startup realities. Not generic coaching, but startup-specific wisdom.",
+			icon: IconUsers
 		}
 	]}
 />
